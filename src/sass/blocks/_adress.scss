@@ -1,0 +1,48 @@
+.adress {
+    position: relative;
+    min-height: 500px;
+    &__box {
+        padding: 27px;
+        position: absolute;
+        width: 310px;
+        height: 158px;
+        background-color: #ffffff;
+        top: 50%;
+        transform: translateY(-60%) translateX(60px);
+        left: 50%;
+        &:before {
+            position: absolute;
+            content: '';
+            width: 0px;
+            height: 0px;
+            border-top: 30px solid transparent;
+            border-right: 25px solid #ffffff;
+            border-bottom: 30px solid transparent;
+            left: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ec644b
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+    &__link {
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: underline;
+        a {
+            color: $main-color;
+        }
+    }
+    iframe {
+        width: 100%;
+    }
+}

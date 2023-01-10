@@ -1,0 +1,105 @@
+.consultation {
+    position: relative;
+    min-height: 350px;
+    padding: 0 0 58px 0;
+    &__title {
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #3a3a3a;
+        text-align: center;
+    }
+    &__icon {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 102px;
+        height: 102px;
+        border: 1px solid $main-color;
+        border-radius: 100%;
+        margin-top: 20px;
+        padding-top: 14px;
+        background-color: #ffffff;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50px;
+            left: -11px;
+            width: 10px;
+            height: 1px;
+            background-color: #ffff;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50px;
+            right: -11px;
+            width: 10px;
+            height: 1px;
+            background-color: #ffff;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+
+        }
+    }
+    &__form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 71px;
+        width: 100%;
+        height: 166px;
+        border: 1px solid #898989;
+        
+    }
+    &__input {
+        width: 270px;
+        height: 47px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 40px;
+        opacity: 0.7;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #101010;
+        padding: 0 30px 0 30px;
+    }
+    &__btn {
+        display: block;
+        position: absolute;
+        bottom: 64px;
+        height: 45px;
+        input {
+            width: 180px;
+            font-size: 12px;
+            line-height: 22px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-align: center;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 23px;
+            left: -10px;
+            width: 10px;
+            height: 1px;
+            background-color: #ffff;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 23px;
+            right: -10px;
+            width: 10px;
+            height: 1px;
+            background-color: #ffff;
+        }
+    }
+    
+}

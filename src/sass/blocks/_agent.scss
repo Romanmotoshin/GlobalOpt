@@ -1,0 +1,30 @@
+.agent {
+    min-height: 342px;
+    padding: 58px 0 75px 0;
+    background: url('../img/bg/bgagent.jpg') center center / cover no-repeat;
+    &__icon {
+        text-align: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        padding-top: 21px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-size: 26px;
+        line-height: 26px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__text {
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-top: 22px;
+        text-align: center;
+    }
+}

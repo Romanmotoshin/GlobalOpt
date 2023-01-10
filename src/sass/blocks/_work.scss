@@ -1,0 +1,26 @@
+.work {
+    padding: 51px 0 57px 0;
+    min-height: 620px;
+    &__items {
+        display: grid;
+        margin-top: 37px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+    &__item {
+        text-align: center;
+    }
+    &__title {
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #ec644b;
+        margin-top: 28px;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        margin-top: 7px;
+    }
+}

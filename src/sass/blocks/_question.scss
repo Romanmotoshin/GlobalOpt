@@ -1,0 +1,70 @@
+.question {
+    min-height: 438px;
+    padding: 62px 0 79px 0;
+    background: url('../img/bg/bgquestion.jpg') center center / cover no-repeat;
+    &__main {
+        width: 896px;
+        min-height: 297px;
+        background-color: rgba(#ffff, .7);
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+    &__hat {
+        width: 896px;
+        height: 68px;
+        background-color: #25333c;
+        text-align: center;
+        padding-top: 20px;
+    }
+    &__title {
+        font-size: 19px;
+        line-height: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subtitle {
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__form {
+        text-align: center;
+        margin-top: 17px;
+        input, textarea {
+            opacity: 0.7;
+            font-size: 13px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #101010;
+            padding: 0 28px 0 28px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    &__name, &__telephone, &__email {
+        width: 270px;
+        height: 47px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 40px;
+    }
+    &__text {
+        width: 815px;
+        height: 73px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
+        margin-top: 6px;
+    }
+    &__btn {
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 16px;
+    }
+}
